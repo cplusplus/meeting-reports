@@ -136,7 +136,7 @@ This is a huge undertaking for both of them. Herb has signed up to dedicate 1.5 
 * ✅ [P3618](https://wg21.link/P3618r0) — [Allow attaching main to the global module](https://github.com/cplusplus/papers/issues/2237)    
 * ✅ [P2825](https://wg21.link/p2825r4) — [Overload resolution hook: declcall( unevaluated-call-expression )](https://github.com/cplusplus/papers/issues/1503)    
 * ✅ [P3492](https://wg21.link/p3492r0) — [Sized deallocation for placement new](https://github.com/cplusplus/papers/issues/2144)    
-* ✅ [P2952](https://wg21.link/p2952r2) — [auto& operator=(X&&) \= default](https://github.com/cplusplus/papers/issues/1624)    
+* ✅ [P2952](https://wg21.link/p2952r2) — [auto& operator=(X&&) = default](https://github.com/cplusplus/papers/issues/1624)    
 * ✅ [P1967](https://wg21.link/p1967r14) — [#embed - a simple, scannable preprocessor-based resource acquisition method](https://github.com/cplusplus/papers/issues/700)    
 * ✅ [P3540](https://wg21.link/P3540r0) — [`#embed` offset parameter](https://github.com/cplusplus/papers/issues/2238)    
 * ✅ [P1306](https://wg21.link/p1306r3) — [Expansion statements](https://github.com/cplusplus/papers/issues/156)    
@@ -341,7 +341,7 @@ LEWG met during the full week, and reviewed 45 papers. We’ve been working most
 * ✅ [P3567R0](https://wg21.link/P3567R0): `flat_meow` Fixes — fixes  
 * ✅ [P3016R5](https://wg21.link/P3016R5): Resolve inconsistencies in begin/end for valarray and braced initializer lists — fixes  
 * ✅ [P3037R4](https://wg21.link/P3037R4): constexpr std::shared_ptr — extension  
-* ✅ [P3416R2](https://wg21.link/P3416R2): exception_ptr_cast: Add && \= delete overload — fixes  
+* ✅ [P3416R2](https://wg21.link/P3416R2): exception_ptr_cast: Add && = delete overload — fixes  
 * ✅ [P2319R4](https://wg21.link/P2319R4): Prevent path presentation problems — API update (Breaking Change, fixes `filesystem::path`) 
 
 &nbsp;
@@ -372,7 +372,7 @@ LEWG met during the full week, and reviewed 45 papers. We’ve been working most
 
 We will resume our discussion about policies in Sofia!
 
-Information about policies can be found in: “[[P2267](https://wg21.link/P2267)R1](https://wg21.link/p2267r1): Library Evolution Policies (The rationale and process of setting a policy for the Standard Library)”.
+Information about policies can be found in: “[P2267R1](https://wg21.link/p2267r1): Library Evolution Policies (The rationale and process of setting a policy for the Standard Library)”.
 
 We will discuss the following topics:
 
@@ -405,7 +405,7 @@ Thank you to all our authors and participants, for a great collaboration in a pr
 
 LEWGI/SG18 did not meet in person during Hagenberg (to allow more time to focus on C++26 design freeze) but will be holding regular telecons, usually only looking at one paper and giving the author feedback so that their paper is in the best possible shape for consideration by LEWG or various other study groups.  SG18 planning on meeting in person in Sofia.
 
-\&n debsp;
+&nbsp;
 
 *****
 
@@ -423,7 +423,7 @@ LWG met in person throughout the week and reviewed multiple papers.
 * [P3349R1](https://wg21.link/P3349R1): Converting contiguous iterators to pointers  
 * [P3372R3](https://wg21.link/P3372R3): constexpr containers and adaptors  
 * [P3378R2](https://wg21.link/P3378R2): constexpr exception types  
-* [P3441R2](https://wg21.link/P3441R2): Rename simd_split to simd_chunk  
+* [P3441R2](https://wg21.link/P3441R2): Rename simd\_split to simd\_chunk  
 * [P3287R3](https://wg21.link/P3287R3): Exploration of namespaces for std::simd  
 * [P2976R1](https://wg21.link/P2976R1): Freestanding Library: algorithm, numeric, and random  
 * [P3430R3](https://wg21.link/P3430R3): simd issues: explicit, unsequenced, identity-element position, and members of disabled simd  
@@ -442,7 +442,7 @@ LWG met in person throughout the week and reviewed multiple papers.
 * [P3284R2](https://wg21.link/P3284R2): write_env and unstoppable Sender Adaptors  
 * [P3149R8](https://wg21.link/P3149R8): async_scope – Creating scopes for non-sequential concurrency	35  
 * [P2781R6](https://wg21.link/P2781R6): std::constant_wrapper  
-* [P3472R3](https://wg21.link/P3472R3): Make fiber_context::can_resume() const	58  
+* [P3472R3](https://wg21.link/P3472R3): Make fiber\_context::can\_resume() const	58  
 * [D2988R10](https://wg21.link/D2988R10): std::optional&lt;T&&gt;  
 * [P3179R7](https://wg21.link/P3179R7): C++ parallel range algorithms
 
@@ -455,10 +455,10 @@ LWG met in person throughout the week and reviewed multiple papers.
 * [LWG4202](https://wg21.link/LWG4202): enable-sender should be a variable template	17  
 * [LWG4203](https://wg21.link/LWG4203): Constraints on get-state functions are incorrect	17  
 * [LWG4204](https://wg21.link/LWG4204): specification of as-sndr2(Sig) in [exec.let] is incomplete	18  
-* [LWG4205](https://wg21.link/LWG4205): let_[*].transform_env is specified in terms of the let_* sender itself instead of its child	18  
-* [LWG4206](https://wg21.link/LWG4206): Alias template connect_result_t should be constrained with sender_to	18  
+* [LWG4205](https://wg21.link/LWG4205): let\_[\*].transform_env is specified in terms of the let\_\* sender itself instead of its child	18  
+* [LWG4206](https://wg21.link/LWG4206): Alias template connect\_result\_t should be constrained with sender_to	18  
 * [LWG4208](https://wg21.link/LWG4208): Wording needs to ensure that in connect(sndr, rcvr) that rcvr expression is only evaluated once	19  
-* [LWG4209](https://wg21.link/LWG4209): default_domain::transform_env should be returning FWD-ENV(env)	19
+* [LWG4209](https://wg21.link/LWG4209): default\_domain::transform_env should be returning FWD-ENV(env)	19
 
  
 #### Papers forwarded to other groups (CWG/LEWG)  
@@ -639,7 +639,7 @@ SG21 met for 1 day in Hagenberg.
 
 #### Papers reviewed
 
-* [P3583R0](https://wg21.link/P3583R0): "Contracts, Types, & Functions" — an approach to make contracts work on function pointers. SG21 concluded that this approach doesn't quite work as proposed and the paper needs a revision; feedback to the author was given. This paper is now the *third* independent attempt to add contracts on function pointers, highlighting how hard this problem really is.  
+* [P3583R0](https://wg21.link/P3583R0): "Contracts, Types, &amp; Functions" — an approach to make contracts work on function pointers. SG21 concluded that this approach doesn't quite work as proposed and the paper needs a revision; feedback to the author was given. This paper is now the *third* independent attempt to add contracts on function pointers, highlighting how hard this problem really is.  
 * [P3400R0](https://wg21.link/P3400R0): "Controlling Contract-Assertion Properties" — proposes to add labels to Contracts, which addresses many additional use cases that [P2900](https://wg21.link/P2900) on its own does not yet fully address. For example, you can have a label to specify in code that a particular contract assertion must always be enforced and can never be ignored or observed. This paper, too, needs a revision; feedback to the author was given.
 
 *****
@@ -721,13 +721,13 @@ Meeting | Location | Objective
 
 &nbsp;
 
-* IS \= International Standard. The C++ programming language. C++11, C++14, C++17, C++20, C+23, etc.
+* IS = International Standard. The C++ programming language. C++11, C++14, C++17, C++20, C+23, etc.
 
-* TS \= Technical Specification. "Feature branches" available on some but not all implementations. Coroutines TS v1, Modules TS v1, etc.
+* TS = Technical Specification. "Feature branches" available on some but not all implementations. Coroutines TS v1, Modules TS v1, etc.
 
-* CD \= Committee Draft. A draft of an IS/TS that is sent out to national standards bodies for review and feedback ("beta testing").
+* CD = Committee Draft. A draft of an IS/TS that is sent out to national standards bodies for review and feedback ("beta testing").
 
-* WP \= Committee White Paper. Similar to TS, but is recommended by ISO for lightweight ISO process. For more information see [SD-4](https://isocpp.org/std/standing-documents/sd-4-wg21-practices-and-procedures)
+* WP = Committee White Paper. Similar to TS, but is recommended by ISO for lightweight ISO process. For more information see [SD-4](https://isocpp.org/std/standing-documents/sd-4-wg21-practices-and-procedures)
 
 **Updates since the last Reddit trip report are in bold.**
 
