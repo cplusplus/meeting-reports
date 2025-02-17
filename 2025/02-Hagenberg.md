@@ -1,4 +1,6 @@
-# 2025 Hagenberg meeting
+---
+title: 2025 Hagenberg meeting
+---
 
 TL;DR
 
