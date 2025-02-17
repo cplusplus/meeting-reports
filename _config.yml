@@ -2,7 +2,5 @@ title: WG21 Meeting Reports
 lang: en
 description: WG21 public reports
 show_downloads: false
-
-[github]
-is_project_page: false
-is_user_page: false
+github.is_project_page: false
+github.is_user_page: false
