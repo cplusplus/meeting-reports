@@ -15,7 +15,7 @@ Main C++26 Features approved in Hagenberg: 🎉
 * [P3471R3](https://wg21.link/P3471R3): Standard Library Hardening  
 * [P0260R15](https://wg21.link/P0260R15): C++ Concurrent Queues  
 * [P3179R6](https://wg21.link/P3179R6): C++ parallel range algorithms  
-* [P3070R2](https://wg21.link/P3070R2): Formatting \~\~enums\~\~ (was `enums` only, extended to user defined types)
+* [P3070R2](https://wg21.link/P3070R2): Formatting ~~enums~~ (was `enums` only, extended to user defined types)
 
 We also rebased C++26 on C23 by approving: “[P3348R1](https://wg21.link/P3348R1): C++26 should refer to C23 not C17” (thank you, Jonathan Wakely!)
 
@@ -331,7 +331,7 @@ LEWG met during the full week, and reviewed 45 papers. We’ve been working most
 * ✅ [P2988R9](https://wg21.link/P2988R9): std::optional&lt;T&&gt; — adding support for ref types in optional  
 * ✅ [P0260R15](https://wg21.link/P0260R15): C++ Concurrent Queues — concurrent container!  
 * ✅ [P3179R6](https://wg21.link/P3179R6): C++ parallel range algorithms  
-* ✅ [P3070R2](https://wg21.link/P3070R2): Formatting \~\~enums\~\~ (was `enums` only, extended to all user defined types) — easier way to define formatters for users  
+* ✅ [P3070R2](https://wg21.link/P3070R2): Formatting ~~enums~~ (was `enums` only, extended to all user defined types) — easier way to define formatters for users  
 * ✅ [P3111R3](https://wg21.link/P3111R3): Atomic Reduction Operations — API extension  
 * ✅ [P3383R1](https://wg21.link/P3383R1): mdspan.at() — API addition  
 * ✅ [P3044R0](https://wg21.link/P3044R0): sub-string_view from string — API addition   
@@ -692,11 +692,11 @@ SG23 met for a day in Hagenberg on Tuesday, with attendance affected by the disc
 
 Meeting | Location | Objective  
 -|-|-  
-\~\~2023 Summer Meeting\~\~ | \~\~Varna 🇧🇬\~\~ | \~\~First meeting of C++26.\~\~  
-\~\~2023 Fall Meeting\~\~ | \~\~Kona 🇺🇸\~\~ | \~\~Design major C++26 features.\~\~  
-\~\~2024 Winter Meeting\~\~ | \~\~Japan 🇯🇵\~\~ | \~\~Design major C++26 features.\~\~  
-\~\~2024 Summer Meeting\~\~ | \~\~St. Louis 🇺🇸\~\~ | \~\~Design major C++26 features.\~\~  
-\~\~2024 Fall Meeting\~\~ | \~\~Wrocław 🇵🇱\~\~ | \~\~C++26 major language feature freeze.\~\~  
+~~2023 Summer Meeting~~ | ~~Varna 🇧🇬~~ | ~~First meeting of C++26.~~  
+~~2023 Fall Meeting~~ | ~~Kona 🇺🇸~~ | ~~Design major C++26 features.~~  
+~~2024 Winter Meeting~~ | ~~Japan 🇯🇵~~ | ~~Design major C++26 features.~~  
+~~2024 Summer Meeting~~ | ~~St. Louis 🇺🇸~~ | ~~Design major C++26 features.~~  
+~~2024 Fall Meeting~~ | ~~Wrocław 🇵🇱~~ | ~~C++26 major language feature freeze.~~  
 **2025 Winter Meeting** | **Hagenberg 🇦🇹** | **C++26 feature freeze. C++26 design is feature-complete.**  
 2025 Summer Meeting | Sofia 🇧🇬 | Complete C++26 CD wording. Start C++26 CD balloting ("beta testing").  
 2025 Fall Meeting | Kona 🇺🇸 | C++26 CD ballot comment resolution ("bug fixes").  
