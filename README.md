@@ -1,3 +1,7 @@
-# WG21 Meeting Reports
+# 2025
 
-* [2025 - Hagenberg](2025/02-Hagenberg.md)
+* [Hagenberg](2025/02-Hagenberg.md)
+
+# 2024
+
+* [Wrocław](https://www.reddit.com/r/cpp/comments/1ienpc7/202411_wrocław_iso_c_committee_trip_report_fifth/)
